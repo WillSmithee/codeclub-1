@@ -1,0 +1,86 @@
+name = "my-project"
+account_id = "a8504cbbaac4bbc139151414bd1ee748"
+workers_dev = true
+compatibility_date = "2022-05-03"
+
+    main = "./index.js"
+
+#    usage_model = "bundled" | "unbound"
+
+#    routes = ["routes"] | [{ pattern = "*", zone_id = "ZONE_ID" }] | [{ pattern = "*", zone_name = "ZONE_NAME" }]
+#    route = "routes" | { pattern = "*", zone_id = "ZONE_ID" } | { pattern = "*", zone_name = "ZONE_NAME" }
+
+#    [triggers]
+#    crons = ["1 * * * *"]
+
+#    [vars]
+#    KEY = "value"
+#    [env.production]
+#    [env.production.vars]
+
+#    [[kv_namespaces]]
+#      binding = "<YOUR_NAMESPACE_0>"
+#      id = "<YOUR_ID>"
+#      preview_id = "<YOUR_PREVIEW_ID>"
+
+#    [durable_objects]
+#      bindings = [
+#        { name = "TEST_OBJECT", class_name = "", script_name = "" }
+#      ]
+
+#    [[migrations]]
+#      tag = ""
+#      new_classes = [""]
+#      renamed_classes = [{from = "DurableObjectExample", to = "UpdatedName" }]
+#      deleted_classes = ["DeprecatedClass"]
+
+#    r2_buckets  = [
+#      { binding = "TEST_BUCKET", bucket_name = "", preview_bucket_name =  "" }
+#    ]
+
+#    [build]
+#      command = "npm run build"
+#      cwd = "build_cwd"
+#      watch_dir = "build_watch_dir"
+
+#    [[rules]]
+#      type = "Text"
+#      globs = ["**/*.md"]
+#      fallthrough = true
+
+#    [text_blobs]
+#      TEXT = ""
+
+#    [wasm_modules]
+#      MODULE = "module.wasm"
+
+#    [data_blobs]
+#         DATA = ""
+
+#    tsconfig = "./tsconfig.json"
+
+#    minify = false
+
+#    node_compat = false
+
+#    [dev]
+ #    ip = ""
+ #    port = 4321
+ #    local_protocol = "http" | "https"
+ #    host = # see route in Environments
+
+#    [site]
+#      bucket = "./public"
+#      include = ["upload_dir"]
+#      exclude = ["ignore_dir"]
+
+#    [env]
+
+
+#    compatibility_flags = [
+#        "formdata_parser_supports_files"
+#    ]
+
+#    services = [
+#      { binding = "TEST_BINDING", service = "", environment = "" }
+#    ]
