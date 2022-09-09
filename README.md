@@ -3,7 +3,7 @@
  - After getting Wrangler and Github set up; we’ve seen how to access
    the **URL** property of an incoming request and do **conditional** logic
    based on it.
- - In $\textcolor{orange}{\textsf{https://developers.cloudflare.com/workers/runtime-apis/request/}}$
+ - In  $\textcolor{RedOrange}{\textsf{https://developers.cloudflare.com/workers/runtime-apis/request/}}$
    you can see that there are many other properties of the request which
    you can access.
  - Using the examples shown here, and the Request documentation, update
