@@ -1,5 +1,12 @@
 export default {
   fetch(request) {
+    // Respond with a sentence containg the request's method, otherwise respond that the request object doesn'r exist
+    if (request) {
+      return new Response(`This request used the ${request.method} method.`);
+    } else {
+      return new Response(`The request object does not exist`);
+    }
+    
     /*
     // Respond based on if the URL of the request matches what is hardcoded in the following code block.
     if (request.url == "https://codeclub-1.willsmithee.workers.dev") {
@@ -16,11 +23,6 @@ export default {
       });
     }
     */
-    // Respond with a sentence containg the request's method, otherwise respond that the request object doesn'r exist
-    if (request) {
-      return new Response(`This request used the ${request.method} method.`);
-    } else {
-      return new Response(`The request object does not exist`);
-    }
+    
   },
 };
