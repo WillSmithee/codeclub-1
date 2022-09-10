@@ -1,7 +1,7 @@
 export default {
   fetch(request) {
     /*
-    // Respond based on if the URL of the request matches what is hardcoded in the foolowing cod block.
+    // Respond based on if the URL of the request matches what is hardcoded in the following code block.
     if (request.url == "https://codeclub-1.willsmithee.workers.dev") {
       return new Response("Hello worker!", {
         headers: {
