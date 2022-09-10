@@ -4,4 +4,3 @@
  - Using the examples shown here, and the Request documentation, update your Hello Worker template so that is gives a different response for requests with a **POST method**.
    - Bonus points if you make it response in a JSON format, as is often useful for POST requests
  - Place your completed assignment in your Github repository
- - 
